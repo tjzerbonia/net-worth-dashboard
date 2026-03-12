@@ -8,7 +8,7 @@ import {
 // 🔧 CONFIGURATION — fill these in after following SETUP.md
 // ============================================================
 const SHEET_ID  = "1kMunUOVzf7rIChRSHFCAFcGX4ijrmrodQEh04lFeWpI";
-const API_KEY   = "AIzaSyBhnGtXndPVthKWz_LmwrOjDCr0Aa2PMVY";
+const API_KEY   = import.meta.env.VITE_API_KEY;
 const SHEET_TAB = "Net Worth data";
 // ============================================================
 
