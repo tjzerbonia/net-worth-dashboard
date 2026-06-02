@@ -12,7 +12,7 @@ const API_KEY   = import.meta.env.VITE_API_KEY;
 const SHEET_TAB = "Net Worth data";
 // ============================================================
 
-const RANGE = `'${SHEET_TAB}'!A1:Z100`;
+const RANGE = `'${SHEET_TAB}'!A1:AM100`;
 const SHEETS_URL = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${encodeURIComponent(RANGE)}?key=${API_KEY}`;
 
 // Row indices in your sheet (0-based, after header row)
